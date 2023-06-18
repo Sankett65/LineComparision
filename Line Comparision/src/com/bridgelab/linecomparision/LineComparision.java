@@ -13,22 +13,14 @@ public class LineComparision {
         System.out.println("Length of a line= " + lengthOfALine);
     }
 
-    static void Equality(double a1, double b1,double c1,double a2, double b2,double c2 ){
 
-        double A =a1/a2;
-        double B= b1/b2;
-        double C= c1/c2;
-        if (A==B && A==C && B==C) {
-            System.out.println("True");
-        }
-
-    }
+    
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the Line Comparison Computation Porgram");
         length(3,4);
-        Equality(-2,4,3,-6,12,9);
+
 
     }
 }
