@@ -12,7 +12,6 @@ public class LineComparision {
         double lengthOfALine=Math.sqrt(length3);
         System.out.println("Length of a line= " + lengthOfALine);
     }
-
     static void Equality(double a1, double b1,double c1,double a2, double b2,double c2 ){
 
         double A =a1/a2;
@@ -33,4 +32,10 @@ public class LineComparision {
         Equality(-2,4,3,-6,12,9);
 
     }
+
+  public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("Welcome to the Line Comparison Computation Porgram");
+        length(3,4);
+ }
 }
