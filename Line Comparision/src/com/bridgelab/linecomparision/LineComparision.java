@@ -12,15 +12,9 @@ public class LineComparision {
         double lengthOfALine=Math.sqrt(length3);
         System.out.println("Length of a line= " + lengthOfALine);
     }
-
-
-    
-
-    public static void main(String[] args) {
+  public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("Welcome to the Line Comparison Computation Porgram");
         length(3,4);
-
-
-    }
+ }
 }
