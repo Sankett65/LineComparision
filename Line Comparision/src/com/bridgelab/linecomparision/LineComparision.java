@@ -22,7 +22,15 @@ public class LineComparision {
         }else {
             System.out.println("False two lines are not equal'");
         }
-        
+        double x=1;
+        double y=2;
+        double  x1=a1*x +b1*y+c1;
+        double y1=a2*x + b2*y +c2;
+        System.out.println("In Compare Method\n" +
+                "1) 0=(x1==y1)\n" +
+                "2) -1=(x1<y1)\n" +
+                "3) 1=(x1>y1)");
+        System.out.println("Comparing x1 and y1 we get " +Double.compare(x1,y1)+ " which means line x1 is less than line y1");
     }
 
     public static void main(String[] args) {
