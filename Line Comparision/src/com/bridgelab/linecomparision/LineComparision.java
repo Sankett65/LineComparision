@@ -1,10 +1,5 @@
 package com.bridgelab.linecomparision;
 import java.util.Scanner;
-// import java.lang.Integer;
-//import java.lang.Math;
-//import java.lang.Object;
-//  import java.lang.Number;
-//  import java.lang.Double;
 class Length {
     public static final double LENGTH_X1 = 0;
     public static final double LENGTH_Y1 = 0;
@@ -17,7 +12,6 @@ class Length {
         System.out.println("Length of a line= " + lengthOfALine);
     }
 }
-
 
     class Equality extends Length{
     void equal(double a1, double b1, double c1, double a2, double b2, double c2) {
